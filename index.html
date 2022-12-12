@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KYS</title>
+    <link rel="stylesheet" href="CSS/main.css">
+
+</head>
+<body>
+    <div class="overlay" id="overlay">
+        <h3>უბრალოდ ბოზების ჯინაზე არ მოიკლა თავი</h3>
+    </div>
+    <!--=============== Start Head area =============== -->
+    <div class="head">
+        <section class="top">
+            <header>
+                <a href="#">How to provide sucide by kopala</a>
+            </header>
+    <!--=============== End Head area =============== -->
+
+            <h1><span>The Easiest Ways</span> To Prevent Suicide</h1>
+
+            <p>Don't kill yourself because of this dumb bitches, If someone indicates they are considering suicide, listen and take their concerns seriously. Don't be afraid to ask questions about their plans. Let them know you care, and they are not alone. Encourage them to seek help immediately from a knowledgeable professional. Don't leave them alone.</p>
+
+            <div class="form-container">
+                <form action="">
+                    <div class="form-left">
+                        <label for="reason">Enter the reason why you want suicide: </label>
+                        <input type="text" name="reason" id="reason">
+                        <p>Example: "Family"</p>
+                    </div>
+
+                    <input type="button" value="Find Prevention Now" id="cta-btn">
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <section class="ending">
+        <div class="right-col">
+            <h2>Life is beauitful (sometimes)</h2>
+            <p>Life can be a truly exciting adventure. But sometimes, there are those days, weeks, or even months, during which the going gets exceptionally tough. Life may confront you with trials and tribulations; it may push you to the ground and will leave you with the impression that all hope is gone. During these times of great difficulty, life will throw daunting challenges and larger-than-life obstacles at you. Whenever these tough times arise in your life, it can be quite beneficial to have a couple of positive and affirming life quotes at hand that help you to remember the true beauty of life. In the following, we’ve created a selection of life is beautiful quotes that show you how important it is to keep fighting for what you hold dear in life.</p>
+        </div>
+        <img src="Images/life.jpg" alt="Life is beautiful">
+    </section>
+
+    <script>
+        let btn = document.getElementById('cta-btn')
+        let overlay = document.getElementById('overlay')
+
+        btn.addEventListener('click', () => {
+            overlay.style.display = 'grid';
+            overlay.classList.add('animate-overlay');
+
+        })
+      
+    </script>
+
+    
+</body>
+</html>
